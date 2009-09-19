@@ -70,20 +70,6 @@ int main(char[][] args)
 	{
 		if(args.length == 2)
 		{
-			/*stations = COA.Fpscan();
-			if((sta.RFPI in stations) !is null)
-			{
-				lasttime = time(null);
-				sta = stations[sta.RFPI];
-				Stdout.formatln("Basisstation {0:X} auf Carrier {1} RSSI {2}",sta.RFPI, sta.Channel, sta.RSSI);
-				while(time(null) < (lasttime + timeout))
-				{
-					while(COA.Ppscan(sta))
-						lasttime = time(null);
-				}
-			}
-			else
-				COA.Channelhop();*/
 			COA.autorec(RFPI);
 		}
 		else

@@ -39,7 +39,7 @@ class DectDevice : MyDevice
 		this.Channel 		= 0;
 		this.Pcap			= null;
 	}
-	
+		
 	/*
 	 * Setzt den Idle-modus der Karte und stoppt aktive Pcap dumps
 	 * Gibt true bei erfolgreichem setzen des Idle-modus zurück
